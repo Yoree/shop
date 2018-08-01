@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "src/pages/own/own",
+    "src/pages/index/index",
+    "src/pages/shopCar/shapCar"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  },
+  "tabBar": {
+    "color":"#323333",
+    "selectedColor":"#ff5447",
+    "backgroundColor":"#fff",
+    "list": [
+      {
+        "pagePath": "src/pages/index/index",
+        "text": "首页",
+        "iconPath":"src/images/home_2@2x.png",
+        "selectedIconPath":"src/images/home_1@2x.png"
+      },
+      {
+        "pagePath": "src/pages/shopCar/shapCar",
+        "text": "购物车",
+        "iconPath": "src/images/shop_2@2x.png",
+        "selectedIconPath": "src/images/shop_1@2x.png"
+      },
+      {
+        "pagePath": "src/pages/own/own",
+        "text": "我的",
+        "iconPath": "src/images/own_2@2x.png",
+        "selectedIconPath": "src/images/own_1@2x.png"
+      }
+    ]
+  }
+}

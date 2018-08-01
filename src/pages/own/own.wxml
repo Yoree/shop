@@ -1,0 +1,8 @@
+<!--src/pages/own/own.wxml-->
+<view class='own-photo'>
+  <image class='own_bg' src='{{own_bg}}' mode='{{moder}}' />
+  <view class='photo_wrap'>
+      <image src='{{src}}' mode='{{moder}}'/>
+  </view>
+  <view class='own_name'>{{name}}</view>
+</view>
