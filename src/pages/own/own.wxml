@@ -6,3 +6,11 @@
   </view>
   <view class='own_name'>{{name}}</view>
 </view>
+
+<view class='orderList'>
+  <view class='orderHeader'>
+    <view>我的订单</view>
+    <view>查看更多订单</view>
+     <view><image class='rightArrow' src='{{rightArrow}}' mode='{{moder}}' /></view>
+  </view>
+</view>

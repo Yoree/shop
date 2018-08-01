@@ -5,9 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    src : '../../images/photo.jpg',
+    src : '../../images/photo.png',
     own_bg:'../../images/own_bg.png',
-    name : 'cc',
+    name : '放屁为何脱裤子',
     moder:'widthFix'
   },
 
