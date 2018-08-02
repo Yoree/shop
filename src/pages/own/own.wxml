@@ -2,7 +2,7 @@
 <view class='own-photo'>
   <image class='own_bg' src='{{own_bg}}' mode='{{moder}}' />
   <view class='photo_wrap'>
-      <image src='{{src}}' mode='{{moder}}'/>
+    <image src='{{src}}' mode='{{moder}}' />
   </view>
   <view class='own_name'>{{name}}</view>
 </view>
@@ -11,6 +11,34 @@
   <view class='orderHeader'>
     <view>我的订单</view>
     <view>查看更多订单</view>
-     <view><image class='rightArrow' src='{{rightArrow}}' mode='{{moder}}' /></view>
+    <view>
+      <image class='rightArrow' src='{{rightArrow}}' mode='{{moder}}' />
+    </view>
+  </view>
+  <view class='orderMenu'>
+    <view  wx:for="{{menu}}" wx:key="{{index}}">
+      <view>
+        <image src='{{item.menuImg}}' mode='{{moder}}'></image>
+      </view>
+      <view>
+        <text>{{item.menuText}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class='own-list'>
+  <view class='own-list-item'>
+    <view>地址管理</view>
+    <view><image class='rightArrow' src='{{rightArrow}}' mode='{{moder}}' /></view>
+  </view>
+  <view class='own-list-item'>
+    <view>意见反馈</view>
+    <view><image class='rightArrow' src='{{rightArrow}}' mode='{{moder}}' /></view>
+  </view>
+  <view class='own-list-item'>
+    <view>关于我们</view>
+    <view><image class='rightArrow' src='{{rightArrow}}' mode='{{moder}}' /></view>
   </view>
 </view>

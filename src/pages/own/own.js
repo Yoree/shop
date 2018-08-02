@@ -7,8 +7,30 @@ Page({
   data: {
     src : '../../images/photo.png',
     own_bg:'../../images/own_bg.png',
+    rightArrow:'../../images/rightArrow.png',
     name : '放屁为何脱裤子',
-    moder:'widthFix'
+    moder:'widthFix',
+    menu:[
+      {
+        menuImg:'../../images/icon1.png',
+        menuText:'待付款'
+      },
+      {
+        menuImg: '../../images/icon2.png',
+        menuText: '待配送'
+      },
+      {
+        menuImg: '../../images/icon3.png',
+        menuText: '待收货'
+      },
+      {
+        menuImg: '../../images/icon3.png',
+        menuText: '待评价'
+      }
+      
+    ]
+     
+    
   },
 
   /**

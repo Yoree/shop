@@ -1,70 +1,139 @@
 /* src/pages/own/own.wxss */
-page{
-  background-color:#f5f8fa;
+
+page {
+  background-color: #f5f8fa;
 }
-.own-photo{
+
+.own-photo {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
-.own_bg{
+
+.own_bg {
   display: block;
   width: 100%;
   z-index: 1;
   top: 0;
 }
-.photo_wrap{
-  position:absolute;
+
+.photo_wrap {
+  position: absolute;
   top: 15%;
   width: 90px;
-  height:90px;
+  height: 90px;
   border-radius: 50%;
   overflow: hidden;
-    z-index: 2;
+  z-index: 2;
 }
- .photo_wrap image{
+
+.photo_wrap image {
   width: 100%;
-} 
-.own_name{
+}
+
+.own_name {
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom:23%;
+  bottom: 23%;
   z-index: 2;
   font-size: 15px;
   color: #2b2c2c;
 }
-.orderList{
+
+.orderList {
   margin-top: 10px;
   background-color: #fff;
 }
-.orderList{
+
+.orderList {
   width: 100%;
 }
-.orderHeader{
+
+.orderHeader {
   width: 96%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid #eff3f7;
 }
-.orderHeader>view{
+
+.orderHeader>view {
+  padding: 0.5rem 0;
+}
+
+.orderHeader>view:nth-child(1) {
   flex: 1;
-  padding: .5rem 0;
-}
-.orderHeader>view:nth-child(1){
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #2b2c2c;
 }
-.orderHeader>view:nth-child(2){
-  font-size: .8rem;
+
+.orderHeader>view:nth-child(2) {
+  flex: 1;
+  font-size: 0.8rem;
   text-align: right;
   color: #9a9a9a;
+  margin-right: 5px;
 }
-.orderHeader>view:nth-child(2)::after{
-  content: '';
-  height: 2px;
+
+.orderHeader>view:nth-child(3)>image {
+  width: 7px;
+  height: 8px;
+}
+
+.orderMenu {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderMenu>view {
+  flex: 1;
+  font-size: 0.78rem;
+  text-align: center;
+  color: #9a9a9a;
+  
+}
+
+.orderMenu>view image {
+  width: 25%;
+}
+
+.own-list {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.own-list>view:nth-child(2){
+  border-bottom: 1px solid #eff3f7;
+  border-top: 1px solid #eff3f7;
+}
+.own-list-item {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: .8rem 2%;
+}
+
+.own-list-item>view:nth-child(1) {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #2b2c2c;
+}
+
+.own-list-item>view:nth-child(2) {
+  width: 7px;
+  height: 8px;
+}
+
+.own-list image {
+  width: 100%;
 }
