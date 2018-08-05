@@ -1,7 +1,7 @@
 {
   "pages": [
-    "src/pages/own/own",
     "src/pages/index/index",
+    "src/pages/own/own",
     "src/pages/shopCar/shapCar"
   ],
   "window": {
