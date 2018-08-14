@@ -4,8 +4,11 @@
     "src/pages/own/own",
     "src/pages/shopCar/shapCar"
   ],
-  "window": {
-    "navigationBarTitleText": "Demo"
+  "window":{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "shop",
+    "backgroundColor": "#f7f9fb"
   },
   "tabBar": {
     "color":"#323333",

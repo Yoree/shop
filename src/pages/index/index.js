@@ -11,7 +11,15 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    imgUrls: [
+      '../../images/banner-01.png',
+      '../../images/banner-01.png',
+      '../../images/banner-01.png'
+    ],
+    indicatorDots: true,
+    autoplay: false,
+    interval: 5000,
+    duration: 1000
   },
 
   /**
